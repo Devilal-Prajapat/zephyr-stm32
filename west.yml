@@ -1,6 +1,7 @@
 manifest:
-  self:
-    west-commands: scripts/west-commands.yml
+  defaults:
+    remote: upstream
+
     
   remotes:
     - name: upstream
@@ -9,7 +10,6 @@ manifest:
       url-base: https://github.com/BabbleSim
 
   group-filter: [-babblesim, -optional, -testing]
-
 
   projects:
     - name: zephyr
@@ -48,9 +48,6 @@ manifest:
     - name: picolibc
       path: modules/lib/picolibc
       revision: 01254932e8e81085817ed61fd858648584ffe37c
-
-#    - name: max30001
-#      repo-path: protocentral_max30001_zephyr_driver
-#      remote: protocentral
-#      revision: main
-#      path: drivers/sensor/max30001
+      
+  self:
+    west-commands: scripts/west-commands.yml
