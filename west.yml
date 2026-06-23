@@ -10,7 +10,7 @@ manifest:
 
   group-filter: [-babblesim, -optional, -testing]
 
-  projects:
+
   projects:
     - name: zephyr
       remote: upstream
