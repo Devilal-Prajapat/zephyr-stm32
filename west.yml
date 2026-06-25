@@ -1,7 +1,6 @@
 manifest:
   defaults:
     remote: upstream
-    west-commands: scripts/west-commands.yml
   remotes:
     - name: upstream
       url-base: https://github.com/zephyrproject-rtos
@@ -15,6 +14,7 @@ manifest:
       remote: upstream
       revision: v4.4.1
       path: zephyr
+      west-commands: scripts/west-commands.yml
 
     - name: cmsis
       revision: 512cc7e895e8491696b61f7ba8066b4a182569b8
