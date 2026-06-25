@@ -1,0 +1,14 @@
+{
+    "cmake.useCMakePresets": "always",
+    // "cmake.options.statusBarVisibility": "visible",
+    // "cmake.buildBeforeRun": true,
+    // "cmake.configureOnOpen": false,
+
+    // "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.intelliSenseMode": "defaults",
+
+    "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+    "C_Cpp.codeAnalysis.runAutomatically": true
+    
+
+}
