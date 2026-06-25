@@ -1,8 +1,7 @@
 manifest:
   defaults:
     remote: upstream
-
-    
+    west-commands: scripts/west-commands.yml
   remotes:
     - name: upstream
       url-base: https://github.com/zephyrproject-rtos
@@ -49,5 +48,3 @@ manifest:
       path: modules/lib/picolibc
       revision: 01254932e8e81085817ed61fd858648584ffe37c
       
-  self:
-    west-commands: scripts/west-commands.yml
