@@ -14,7 +14,8 @@ manifest:
       remote: upstream
       revision: v4.4.1
       path: zephyr
-      - name: cmsis
+      west-commands: scripts/west-commands.yml
+    - name: cmsis
       revision: 512cc7e895e8491696b61f7ba8066b4a182569b8
       path: modules/hal/cmsis
       groups:
@@ -46,6 +47,5 @@ manifest:
       path: modules/lib/picolibc
       revision: 01254932e8e81085817ed61fd858648584ffe37c
   
-  self:
-    path: zephyr
-    west-commands: scripts/west-commands.yml
+
+   
